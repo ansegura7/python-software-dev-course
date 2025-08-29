@@ -1,7 +1,6 @@
-# Python Software Development Course
+# Python Software Development Course :snake:
 
-This repository contains resources, examples, and exercises for the **Python Software Development Course**.  
-The program is a condensed **8-session (16-hour)**, hands-on journey for beginners to build real skills and a starter portfolio.
+This repository contains resources, examples, and exercises for the **Python Software Development Course**. The program is a condensed **8-session (16-hour)**, hands-on journey for beginners to build real skills and a starter portfolio.
 
 ## What You Will Learn (8 Sessions)
 
@@ -47,15 +46,18 @@ The program is a condensed **8-session (16-hour)**, hands-on journey for beginne
 ## Getting Started
 
 ```bash
-git clone https://github.com/ansegura7/python-software-dev-course.git
-cd python-software-dev-course
+> git clone https://github.com/ansegura7/python-software-dev-course.git
+> cd python-software-dev-course
 
 # (optional) create a virtual environment
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+> python -m venv .venv
+> .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# update pip
+> python.exe -m pip install --upgrade pip
 
 # install common tools
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
 ## License
